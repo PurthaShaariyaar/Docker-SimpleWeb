@@ -8,7 +8,7 @@ const app = express();
  * Route handler to send a message to the root route of application
  */
 app.get('/', (req, res) => {
-  res.send('Hi there');
+  res.send('Hello World!');
 });
 
 // Start server and listen on port 8080
